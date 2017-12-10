@@ -1,0 +1,339 @@
+.container {
+	width: 100%;
+	min-width: 1440px;
+}
+
+/*stussy*/
+.stussy {
+	width: 100%;
+	height: 890px;
+	background: url(../img/bg/stussy-bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.stussy-menu {
+	width: 100%;
+	height: 170px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.stussy-menu-left {
+	width: 20%;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stussy-menu-right {
+	width: 80%;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stussy-menu-right-block {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stussy-menu-right-block-ul {
+	width: 100%;
+	text-align: right;
+
+}
+
+.stussy-menu-right-block-ul-li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 64px;
+	text-align: center;
+}
+
+.stussy-menu-right-block-ul-li-a {
+	font: 18px "ProximaNova-Semibold";
+	letter-spacing: 6px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.stussy-menu-right-block-ul-li-a:hover {
+	color: #f84545;
+}
+
+.stussy-menu-right-block-ul-li-a:focus {
+    color: #f84545;
+}
+
+.stussy-menu-right-block-ul-li-a:active {
+    color: #C6C6C6;
+}
+
+.stussy-contant {
+	width: 100%;
+	height: 720px;
+}
+
+.stussy-h1 {
+	text-align: center;
+	padding-top: 270px;
+	letter-spacing: 35px;
+}
+
+.stussy-h3 {
+	text-align: center;
+	padding-top: 27px;
+}
+
+.stussy-arrow {
+	display: block;
+	height: 42px;
+	text-align: center;
+	padding-top: 202px;
+}
+
+/*shop*/
+.shop {
+	width: 100%;
+	height: 1570px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shop-left {
+	width: 980px;
+	height: 1410px;
+	margin-right: 55px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.shop-left-1 {
+	width: 980px;
+	height: 775px;
+	background: url(../img/bg/shopGourmet.jpg) no-repeat;
+	background-size: cover;
+}
+
+.shop-left-1-h1 {
+	padding-left: 53px;
+	padding-top: 660px;
+	position: relative;
+}
+
+.shop-left-1-h1::before {
+  display: block;
+  width: 195px;
+  height: 191px;
+  position: absolute;
+  content: "";
+  background: url("../img/icon/nfn.png") no-repeat;
+  background-repeat: no-repeat;
+  left: 50px;
+  top: 446px;
+}
+
+.shop-left-2 {
+	width: 460px;
+	height: 580px;
+	margin-top: 55px;
+	background: url(../img/bg/10deepSale.jpg) no-repeat;
+	background-size: cover;
+}
+
+.shop-left-2-h2 {
+	padding-left: 35px;
+	padding-top: 460px;
+	position: relative;
+}
+
+.shop-left-2-h2::before {
+  display: block;
+  width: 275px;
+  height: 68px;
+  position: absolute;
+  content: "";
+  background: url("../img/icon/10deep.png") no-repeat;
+  background-repeat: no-repeat;
+  left: 37px;
+  top: 362px;
+}
+
+.shop-left-3 {
+	width: 460px;
+	height: 580px;
+	margin-top: 55px;
+	background: url(../img/bg/palace2014.jpg) no-repeat;
+	background-size: cover;
+}
+
+.shop-left-3-h2 {
+	padding-left: 35px;
+	padding-top: 460px;
+	position: relative;
+}
+
+.shop-left-3-h2::before {
+  display: block;
+  width: 110px;
+  height: 95px;
+  position: absolute;
+  content: "";
+  background: url("../img/icon/palace.png") no-repeat;
+  background-repeat: no-repeat;
+  left: 39px;
+  top: 335px;
+}
+
+.shop-right {
+	width: 460px;
+	height: 1410px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.shop-right-1 {
+	width: 460px;
+	height: 360px;
+	background: url(../img/bg/shopCarhartt.jpg) no-repeat;
+	background-size: cover;
+}
+
+.shop-right-1-h2 {
+	padding-left: 40px;
+	padding-top: 240px;
+	position: relative;
+}
+
+.shop-right-1-h2::before {
+  display: block;
+  width: 81px;
+  height: 96px;
+  position: absolute;
+  content: "";
+  background: url("../img/icon/chopCarhartt.png") no-repeat;
+  background-repeat: no-repeat;
+  left: 42px;
+  top: 114px;
+}
+
+.shop-right-2 {
+	width: 460px;
+	height: 360px;
+	margin-top: 55px;
+	background: url(../img/bg/shopAdidas.jpg) no-repeat;
+	background-size: cover;
+}
+
+.shop-right-2-h2 {
+	padding-left: 40px;
+	padding-top: 240px;
+	position: relative;
+}
+
+.shop-right-2-h2::before {
+  display: block;
+  width: 140px;
+  height: 96px;
+  position: absolute;
+  content: "";
+  background: url("../img/icon/adidas.png") no-repeat;
+  background-repeat: no-repeat;
+  left: 42px;
+  top: 114px;
+}
+
+.shop-right-3 {
+	width: 460px;
+	height: 580px;
+	margin-top: 55px;
+	background: url(../img/bg/teachPack.jpg) no-repeat;
+	background-size: cover;
+}
+
+.shop-right-3-h2 {
+	padding-left: 40px;
+	padding-top: 504px;
+	position: relative;
+}
+
+.shop-right-3-h2::before {
+  display: block;
+  width: 183px;
+  height: 97px;
+  position: absolute;
+  content: "";
+  background: url("../img/icon/nike.png") no-repeat;
+  background-repeat: no-repeat;
+  left: 41px;
+  top: 378px;
+}
+
+/*icndy*/
+.icndy {
+	width: 100%;
+	height: 840px;
+	background: url(../img/bg/icndy-bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.icndy-h1 {
+	text-align: center;
+	padding-top: 393px;
+	letter-spacing: 35px;
+}
+
+.icndy-h3 {
+	text-align: center;
+	padding-top: 27px;
+}
+
+/*footer*/
+.footer {
+	width: 100%;
+	min-width: 1440px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-ul {
+	width: 100%;
+	text-align: center;
+}
+
+.footer-li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin-left: 70px;
+}
+
+.footer-a {
+	font: 18px "ProximaNova-Semibold";
+	letter-spacing: 6px;
+	color: #1a1a1a;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.footer-a:hover {
+	color: #f84545;
+}
+
+.footer-a:focus {
+    color: #f84545;
+}
+
+.footer-a:active {
+    color: #C6C6C6;
+}

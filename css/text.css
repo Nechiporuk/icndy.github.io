@@ -1,0 +1,21 @@
+h1 {
+	font: 60px "ProximaNova-Light";
+	color: #fff;
+	letter-spacing: 24px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font: 40px "ProximaNova-Light";
+	color: #fff;
+	letter-spacing: 16px;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+h3 {
+	font: 30px "ProximaNova-Bold";
+	color: #f84545;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+}
